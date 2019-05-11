@@ -56,12 +56,12 @@
 
                     </div>
                <!-- #################### Botão para retornar para a Index ####################### -->
+                    <div class="borda"></div>
+                    
                     <div class="RetornarIndex">
-
-                    <ol class="btnRetornar">
-                         <li><a href="../../../index.php" title="Fechar"><i class="far fa-window-close fa-2x margin"></i></a></li>
-                    </ol>
-
+                         <ol class="btnRetornar">
+                              <li><a href="../../../index.php" title="Fechar">Fechar</a></li>
+                         </ol>
                </div>
                     
                </div>

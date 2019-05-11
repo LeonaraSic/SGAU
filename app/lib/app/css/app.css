@@ -309,9 +309,15 @@ h1
 
 .MenuLogin ul { display: flex; flex-direction: row;    justify-content: space-around }
 
-.MenuLogin ul li{list-style: none; padding: 10px; }
+.MenuLogin ul li{list-style: none; }
 
-.MenuLogin li a{ text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: #fafafa}
+.MenuLogin li a
+{ 
+     text-decoration: none; 
+     font-family: Arial, Helvetica, sans-serif; 
+     color: #fafafa;
+     padding: 10px ;
+}
 
 .Registrar, .Entrar{ width: 46%; display: flex; flex-direction: row; justify-content: center}
 
@@ -354,7 +360,10 @@ h1
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus
 {
      outline-color: rgba(62, 219, 193, 0.959);
+     background-color: #fafafa;
 }
+
+input[type=text], input[type=email], input[type=password]{border: 1.3px solid rgba(32, 31, 31, 0.151)}
 
 /* #### Botão Enviar ####  */
 .BotaoLogin
@@ -368,7 +377,14 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus
      cursor: pointer;     
 }
 
-.BotaoLogin:hover{ box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.247); transition: 0.3s}
+.BotaoLogin:hover
+{ 
+     box-shadow: -5px 5px 10px -2px rgba(0, 0, 0, 0.281); 
+     transition: 0.4s;
+     background-color: rgb(61, 175, 147);
+     color:  #ffffff
+
+}
 
 /* #### Chamada para registrar-se no sistema #### */
 .LinkLogin{padding: 10px;}
@@ -377,12 +393,39 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus
 
 .Link li a{text-decoration: none; color:#29d8c7}
 
-/* #### Formatação do botão para retornar à página principal do sistema #### */
+/* ############### Formatação do botão para retornar à página principal do sistema ############## */
+.borda{ width: 105%;border: solid 0.5px rgba(0, 0, 0, 0.103); margin: 10px 0 20px 0}
 
-.RetornarIndex{ width: 90%; display: flex; flex-direction: row-reverse;  }
+.RetornarIndex{ width: 90%; display: flex; flex-direction: row-reverse;   }
 
-.btnRetornar{list-style: none;padding: 5px; }
+.btnRetornar
+{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     list-style: none;
+     padding: 5px; 
+}
 
-.btnRetornar li a {text-decoration: none; color: rgba(32, 31, 31, 0.705);  }
+.btnRetornar li a 
+{
+     width: 40%;
+     height: 40px;
+     text-decoration: none; 
+     color: rgba(32, 31, 31, 0.705); 
+     font-family: Arial, Helvetica, sans-serif; 
+     padding: 10px 25px;
+     border: solid 2px rgba(31, 172, 136, 0.705);
+     background-color: #fafafa
+}
 
-.margin{margin-left: 2px;}
+.btnRetornar li a:hover
+{ 
+     box-shadow: -5px 5px 10px -2px rgba(0, 0, 0, 0.281); 
+     background-color: rgb(61, 168, 142);
+     color: #fafafa;
+     transition: 0.4s;
+}
+
+
