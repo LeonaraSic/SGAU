@@ -1,0 +1,388 @@
+ /* ########################### Menu horizontal da principal ############################## */
+ *{margin: 0; padding: 0; box-sizing: border-box;}
+
+ body{background-color: #f2f2f2}
+
+.Menu
+{
+    width: 100%; 
+    height: 70px; 
+    background-color:#159588;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* #### Texto com o nome SGAU no canto esquerdo do menu principal ####  */
+#Logo
+{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#Logo ol li{list-style: none;}
+
+#Logo ol a
+{
+    text-decoration: none;
+    color: #fafafa; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px ; 
+    padding-right: 10px;
+}
+
+/* #### Formatação dos links do menu da página principal #### */
+.Menu  .Menu_Top 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Menu .Menu_Top a 
+{
+    text-decoration: none;
+    text-align: center;
+    color: #fafafa;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
+}
+
+.Menu .Menu_Top a:hover{color: #AEE4DF ; transition: 0.4s;  }
+
+.Menu .Menu_Top .Ativado
+{
+    background-color: rgba(64, 194, 181, 0.781);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*  #### Classe usada no jquery, para deixar o menu fixo #### */
+.Menu-Fixo
+{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/* #### Formatação do link entrar no canto direito da tela ####  */
+.entrar{color: #fafafa;}
+
+.Entrartexto{font-family: Arial, Helvetica, sans-serif; font-weight: 100; font-size: 17px; }
+
+.entrar:hover{color: #AEE4DF}
+
+
+/* ############################## Slide de imagens da principal ########################## */
+#slide
+{
+     width: 100%;
+     overflow: hidden;
+     height: 555px;
+     position: relative;
+}
+
+#slide figure img
+{
+     position: absolute;
+     z-index: 1;
+     display: none;
+     left: 0;
+     width: 100%;
+}
+
+/* ####Texto que fica centralizado e por cima das imagens do slide #### */
+#slide p{
+     z-index: 2;
+     position: absolute;
+     text-align: center;
+     bottom: 250px;
+     left: 202px;
+     width: 70%;
+     padding: 10px;
+     font-family:'Libre Franklin', sans-serif;;
+     font-size: 39px;    
+     background: rgba(27, 27, 27, 0.7);
+     border-radius: 15px;
+     color: #fff;    
+ }
+
+/* #### Botões voltar e avançar do slide #### */
+#slide #voltar, #avancar 
+{
+     z-index: 2;
+    position: absolute;
+    bottom: 250px;
+    width: 3%;
+    padding:3px ;
+    text-align: center;
+    font-family:  Gotham, Helvetica;
+    font-size: 50px;
+    background: rgba(26, 26, 26, 0.39);
+    color: #fff;
+    cursor: pointer;
+}
+
+#slide #voltar{left: 0px}
+
+#slide #avancar{right: 0 ;}
+
+
+/* ##################### As chamadas( finalidades ) que ficam em baixo do slide ################ */
+.Container
+{
+     width: 100%; 
+     margin-top: 100px;
+     display: flex; 
+     flex-direction: column; 
+     align-items: center;
+     justify-content: center;    
+}
+
+.Container01, .Container02 
+{ 
+     width: 100%;
+     display: flex; 
+     flex-direction: row; 
+     align-items: center; 
+     justify-content: space-between;
+}
+
+.Conteudo
+{
+     width: 35%; 
+     height: 150px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 5px 5px 10px rgba(73, 78, 92, 0.144);
+     margin:  10px;
+     padding: 10px;
+     font-size: 17px;
+     color: rgb(73, 73, 73);
+}
+
+.chamada01, .chamada02,.chamada03, .chamada04{ opacity: 0;}
+
+h2, h3, h4, h5 {font-size: 19px; margin-bottom: 10px;}
+
+
+/* ########################### Formatação da página quem somos ########################### */
+#Sobre 
+{
+    width: 70%;
+     margin: 0 auto;
+     margin-top: 120px;
+     text-indent: 30px;
+     font-size: 19px;
+     background-color: #fafafa;
+     box-shadow: 5px 5px 10px rgba(73, 78, 92, 0.144);
+     padding: 10px;
+}
+
+p
+{
+     padding: 5px; 
+     font-family: Arial, Helvetica, sans-serif; 
+     color: rgba(73, 78, 92, 0.938);
+     text-align: justify;
+}
+
+h1
+{
+     text-align: center;
+     padding: 20px;
+     color: rgb(73, 78, 92);
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+}
+
+
+/* ########################## Formatação da footer e dos contatos ########################### */
+#Rodape
+{
+     width: 100%;
+     height: 200px;
+     margin-top: 30px;
+     background-color: rgb(40, 170, 157);
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content: flex-end;
+}
+/* #### Contatos #### */
+.TextosRodapé
+{
+     width: 100%;
+     height: 150px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;     
+}
+
+.Color p{ color: #fafafa ; text-align: center }
+
+.CorSuave p{ color: rgba(128, 223, 215, 0.945) }
+
+.Flex{ display: flex ; flex-direction: row ; justify-content: center }
+
+.Tam{color: #fafafa;font-size: 18px; }
+
+.Links a{text-decoration: none}
+
+.Links .fab:hover{color: rgba(84, 211, 200, 0.945)}
+
+/* #### Texto Copyrigth SGAU ####  */
+.Copyright{
+     width: 100%;
+     height: 50px;
+     background-color: #0E7A6F;
+}
+
+.TextoCopy {
+     width: 100%;
+     height: 50px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+.TextoCopy p
+{
+     color: #fafafa;
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     font-weight: 100;
+   
+}
+
+.TextoApagado
+{
+     color: rgb(126, 206, 199);
+}
+
+
+/* ################################ Links entrar e cadastrar ############################### */
+.FormularioLogin
+{
+     width: 100%;
+     height: 600px;
+     background-image: url("../../../img/backLogin.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+
+/*#### Font awesome ####*/
+.user{color: #fafafa; margin-right: 10px}
+
+.plus{color: #fafafa}
+
+/* #### Links de entrar e registrar do login ####  */
+
+.MenuLogin
+{
+     width:27%;
+     height: 50px;
+     border-radius: 5px;
+     background-color: #159588;
+     display: flex; 
+     flex-direction: column;
+     justify-content: space-around;
+     margin-bottom: -20px;
+     z-index: 2;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+     
+}
+
+.MenuLogin ul { display: flex; flex-direction: row;    justify-content: space-around }
+
+.MenuLogin ul li{list-style: none; padding: 10px; }
+
+.MenuLogin li a{ text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: #fafafa}
+
+.Registrar, .Entrar{ width: 46%; display: flex; flex-direction: row; justify-content: center}
+
+.LoginEntrar{background-color: #35B8AB}
+
+/* #### Formulário de login #### */
+#FormLogin
+{
+     width: 100% ;
+     height: 575px; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.form
+{
+     width:30%;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #fafafa;
+     padding: 10px; 
+     border-radius: 5px;
+}
+
+.Campos
+{
+     width: 90%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 4px;
+     border: none
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus
+{
+     outline-color: rgba(62, 219, 193, 0.959);
+}
+
+/* #### Botão Enviar ####  */
+.BotaoLogin
+{ 
+     height: 40px;
+     margin: 5px; 
+     border: none; 
+     background-color: #2e8b57;
+     color: seashell; 
+     border-radius: 15px;
+     cursor: pointer;     
+}
+
+.BotaoLogin:hover{ box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.247); transition: 0.3s}
+
+/* #### Chamada para registrar-se no sistema #### */
+.LinkLogin{padding: 10px;}
+
+.Link li{ color: #888787; font-family: Arial, Helvetica, sans-serif; font-size: 16px; list-style-type: none}
+
+.Link li a{text-decoration: none; color:#29d8c7}
+
+/* #### Formatação do botão para retornar à página principal do sistema #### */
+
+.RetornarIndex{ width: 90%; display: flex; flex-direction: row-reverse;  }
+
+.btnRetornar{list-style: none;padding: 5px; }
+
+.btnRetornar li a {text-decoration: none; color: rgba(32, 31, 31, 0.705);  }
+
+.margin{margin-left: 2px;}
