@@ -2,17 +2,17 @@ $(document).ready(function()
 {
      /* ################  Menu Fixo ############
      Ao rollar a página e a atingir um certo tamanho, o menu principal fica fixo. */
-     var nav = $('.Menu');
+     var nav = $('.menu');
 
      $(window).scroll(function(){
 
           if ( $( this ).scrollTop() > 0)
           {
-               nav.addClass("Menu-Fixo");
+               nav.addClass("menuFixo");
           }
           else
           {
-               nav.removeClass("Menu-Fixo");
+               nav.removeClass("menuFixo");
           }
      });
 
@@ -22,10 +22,9 @@ $(document).ready(function()
           e.preventDefault();
 
           var id = $ ( this ).attr( 'href' );
-          targetOffset = $( id ).offset().top,
-         
+          targetOffset = $( id ).offset().top,         
 
-          $( 'html, body' ).animate({scrollTop: targetOffset - 200}, 500)
+          $( 'html, body' ).animate({scrollTop: targetOffset - 155}, 500)
           
      });
      
@@ -87,5 +86,11 @@ $(document).ready(function()
           $('.chamada03').animate({scrollTop : 100 ,'margin-left' : '160px' , 'opacity': '1'}, 2000);
           $('.chamada04').animate({scrollTop : 100 ,'margin-right' : '160px' , 'opacity': '1'}, 2000);
      });
-
+ 
 });
+
+
+
+
+     
+

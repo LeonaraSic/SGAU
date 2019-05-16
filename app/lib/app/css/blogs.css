@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0; box-sizing: border-box}
 
-#ConteudoFlex{display: flex; flex-direction: row}
+#ConteudoFlex{width: 100%; height: 625px;  display: flex; flex-direction: row }
 
 #ImgHeader, #ImgHeader img { width: 80%; height: 625px; background-size: cover}
 
@@ -80,7 +80,7 @@
 
 #TextoH1 h1{color: rgb(34, 185, 114); font-family: Arial, Helvetica, sans-serif; font-weight: 100 }
 
-/* ################$$$$$$########## Páginas do blog ############################### */
+/* ################################ Páginas do blog ############################### */
 .Conteudo{width: 80%; height: 625px; overflow-y: scroll;  }
 
 .Textos{padding: 10px; color:  rgba(61, 60, 60, 0.986); font-family: Arial, Helvetica, sans-serif; }

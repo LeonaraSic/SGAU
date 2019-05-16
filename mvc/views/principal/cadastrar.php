@@ -1,6 +1,6 @@
 
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="pt-BR">
  <head>
       <meta charset="UTF-8">
       
@@ -16,7 +16,7 @@
  <body>       
                <!-- ####################### Formulario de Cadastro ####################### -->
 
-     <main class="FormularioLogin">
+     <main class="formularioLogin background">
      
           <form action="" method="POST" name="Formlogin" id="FormCadastro" class="FormCadastro">
 

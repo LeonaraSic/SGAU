@@ -14,20 +14,20 @@
 </head>
 <body>
 
-     <main class="FormularioLogin">
+     <main class="formularioLogin">
      
-          <form action="" method="POST" name="Formlogin" id="FormLogin" class="FormLogin" >
+          <form action="" method="POST" name="formLogin" id="formLogin" class="formLogin" >
 
                <!--  ############### Links de Entrar e Cadastrar ######################### -->
-               <div class="MenuLogin">  
+               <div class="menuLogin">  
                     <ul>
 
-                         <li  class="Entrar LoginEntrar" >
+                         <li  class="entrar loginEntrar" >
                               
                               <a href=" login.php " ><i class="fas fa-user user"></i>Entrar</a>
                          </li>
 
-                         <li  class="Registrar Cadastro " >     
+                         <li  class="registrar cadastro " >     
                               <a href=" Cadastrar.php " > <i class="fas fa-user-plus  user"></i>Cadastrar</a>
                          </li>
                       
@@ -37,19 +37,19 @@
                <!-- ##################### Formulário de login ####################### -->
                <div class="form">
 
-                     <input type="text" name="CpfLogin" id="CpfLogin" class="Campos" placeholder="CPF">              
-                    <input type="email"  name="EmailLogin" id="EmailLogin" class="Campos campo02" placeholder="E-mail">
+                     <input type="text" name="cpfLogin" id="cpfLogin" class="campos" placeholder="CPF">              
+                    <input type="email"  name="emailLogin" id="emailLogin" class="campos campo02" placeholder="E-mail">
                     
-                    <input type="password" name="senhaLogin" id="senhaLogin" class="Campos campo03" placeholder="Senha">
+                    <input type="password" name="senhaLogin" id="senhaLogin" class="campos campo03" placeholder="Senha">
                     
-                   <input type="submit" value="Enviar" class=" BotaoLogin Campos ">
+                   <input type="submit" value="Enviar" class=" botaoLogin campos ">
 
                <!-- ############### Chamadas para fazer o cadastro ############# -->
 
-                   <div class="LinkLogin" >
+                   <div class="linkLogin" >
 
-                         <ol class="Link">
-                              <li class="Conta">Ainda não possui uma conta? 
+                         <ol class="link">
+                              <li class="conta">Ainda não possui uma conta? 
                                    <a href="Cadastrar.php">Cadastre-se </a>
                               </li>
                          </ol>
@@ -58,7 +58,7 @@
                <!-- #################### Botão para retornar para a Index ####################### -->
                     <div class="borda"></div>
                     
-                    <div class="RetornarIndex">
+                    <div class="retornarIndex">
                          <ol class="btnRetornar">
                               <li><a href="../../../index.php" title="Fechar">Fechar</a></li>
                          </ol>
@@ -69,11 +69,11 @@
           </form>
                <!-- ############################# Footer ###################### -->
 
-          <div class="Copyright">
+          <div class="copyright">
                
-               <div class="TextoCopy">
+               <div class="textoCopy">
                     <p>
-                         <span class=" TextoApagado "> &copy; 2019  Copyright:</span> SGAU               
+                         <span class=" textoApagado "> &copy; 2019  Copyright:</span> SGAU               
                     </p>
                </div>
 
