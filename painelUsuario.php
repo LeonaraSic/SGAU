@@ -51,7 +51,7 @@
 
                          <li><a href="?p=<?php echo base64_encode('cadastroRequerimento')?>"><i class="fas fa-edit"></i> &nbsp;Cadastro de Requerimento</a></li>
 
-                         <li><a href="?p=<?php echo base64_encode('') ?>"><i class="fas fa-edit"></i> &nbsp;Análise do Requerimento</a></li>
+                         <li><a href="?p=<?php echo base64_encode('analiseRequerimento') ?>"><i class="fas fa-edit"></i> &nbsp;Análise do Requerimento</a></li>
 
                </nav>
 
