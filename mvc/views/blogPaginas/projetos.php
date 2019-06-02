@@ -36,6 +36,6 @@
 <script src="app/lib/jquery.js"></script>
   <script>
      $("#ImgHeader").fadeOut("fast");
-     $("#Menu_Blog").css("width" ," 36%");
+     $("#Menu_Blog").css("width" ," 25%");
      $(".Conteudo").css("width" ," 100%")
 </script>

@@ -5,9 +5,9 @@
 
           if ( file_exists ( 'mvc/views/blogPaginas/' . $nomeDaView  ) )
           {
-          echo "<div id='ConteudoFlex '>" ;
+
           include_once  'mvc/views/blogPaginas/' . $nomeDaView ;
-          echo "</div>";
+
           }
           else 
           {

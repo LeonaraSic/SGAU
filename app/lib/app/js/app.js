@@ -86,7 +86,14 @@ $(document).ready(function()
           $('.chamada03').animate({scrollTop : 100 ,'margin-left' : '160px' , 'opacity': '1'}, 2000);
           $('.chamada04').animate({scrollTop : 100 ,'margin-right' : '160px' , 'opacity': '1'}, 2000);
      });
- 
+
+
+
+
+     /*  */
+
+
+     
 });
 
 

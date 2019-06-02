@@ -435,4 +435,238 @@ input [ type=password ]
      transition: 0.4s;
 }
 
+/* ################## Formatação da Página Painel de Controle ################## */
 
+#painelDeControle{display: flex; flex-direction: row}
+
+.menuDeControle
+{
+     width: 20%;
+     height: 625px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #3D424E;
+}
+
+/* ################# Formatação da logo SGAU ###################### */
+.containerSgau
+{
+     background-color: #33363F ;
+     width: 100%; 
+     height: 60px;
+     display: flex; 
+     flex-direction: row; 
+     justify-content: center;
+     align-items: center;
+}
+
+.Logosgau { color: #D6D7D9;  font-family: Arial, Helvetica, sans-serif; font-size: 40px }
+
+
+/* ################### Formatação do usuario ################# */
+
+.usuarioAdm
+{ 
+     width: 100%; 
+     height: 100px;
+     display: flex; 
+     flex-direction: row; 
+     justify-content: center; 
+     align-items: center;
+     background-color: rgb(81, 85, 95);
+}
+
+ .fotoRedonda
+{
+     width: 30%;
+     height: 80px;
+     border-radius: 40px;
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;
+     align-items: center
+} 
+
+.fotoRedonda img 
+{
+     width: 60%;
+     height: 50px;   
+}
+
+.col1
+{
+     display: flex; 
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center;
+     color: #fafafa;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif
+}
+
+
+/* ################# Formatação dos links do Painel de controle ADM #################### */
+
+.menuControle
+{
+     width: 100%;
+     height: 550px;
+     padding-top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuControle ul
+{
+     list-style: none;
+     position: relative;
+}
+
+.menuControle .aumenta li
+{
+     width: 128%;
+}
+
+.diminui li{ width: 121%;}
+
+.menuControle a
+{
+     padding: 15px;
+     display: block;
+     text-decoration: none;
+     text-align: center ;
+     background-color: #33363F;
+     color: #fafafa;
+     border-bottom: solid 0.5px rgba(255, 255, 255, 0.452);
+
+}
+
+.menuControle ul ul
+{
+     position: absolute;
+     visibility: hidden;
+}
+
+.menuControle ul li:hover ul{
+     visibility: visible;
+     z-index: 999;
+}
+
+.menuControle a:hover
+{
+     background-color: #d6cdcd;
+     color: #555;
+   
+}
+
+.menuControle ul ul li
+{
+     border-bottom: solid 1px #ccc; 
+}
+
+.menuControle ul ul li a
+{
+     background-color: rgb(42, 133, 167);
+}
+
+
+/* ############## FORMULARIOS DO ADM ############################## */
+.form{ width: 80%; height: 625px;}
+.flex
+{
+     width: 50%;
+     
+     padding: 10px;
+     display: flex;
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center; 
+     border: solid 1px rgba(80, 78, 78, 0.164);
+     box-shadow: 5px 5px 10px rgba(80, 78, 78, 0.164);
+}
+
+.largura
+{
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+}
+
+.uniaoFlex
+{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     
+}
+
+.uniaoLargura
+{
+     margin-right: 2px
+}
+
+.center
+{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+label
+{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     color: rgba(51, 54, 63, 0.829);
+     padding: 4px;
+     margin: 10px
+     
+}
+
+.ultimaLargura
+{
+     width: 50%;
+     height: 40px;
+     margin: 5px
+}
+
+input
+{
+  margin-bottom: 5px
+}
+
+.botao
+{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between
+}
+
+.btn
+{
+     width: 49%;
+     height: 40px;
+     cursor: pointer;
+     margin-top: 10px;
+     border: none;
+     color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(42, 133, 167);
+     font-size: 17px
+}
+
+.bt01
+{
+     background-color: rgb(43, 156, 145);
+
+}
+
+.Op
+{
+     margin-top: 10px;
+    
+}
+
+/* #################### indicies e relatótios ####################### */

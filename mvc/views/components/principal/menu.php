@@ -19,7 +19,7 @@
 
         <ul class="menuTop">
             <li>
-                <a href="mvc/views/principal/login.php">
+                <a href="usuario.php">
 
                     <i class="fas fa-sign-in-alt entrar">
                         <span class="entrarTexto"> &nbsp;Entrar</span>
