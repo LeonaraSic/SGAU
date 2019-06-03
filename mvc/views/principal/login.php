@@ -26,13 +26,15 @@
                
                <input type="submit" value="Enviar" class=" botaoLogin campos ">
 
+               <div class="color"> <?php include_once 'mvc/controllers/cadastrar.php' ;?></div>
+
           <!-- ############### Chamadas para fazer o cadastro ############# -->
 
                <div class="linkLogin" >
 
                     <ol class="link">
                          <li class="conta">Ainda não possui uma conta? 
-                              <a href="Cadastrar.php">Cadastre-se </a>
+                              <a href=" ?v=<?php echo base64_encode ( 'cadastrar' ) ?> ">Cadastre-se </a>
                          </li>
                     </ol>
 
@@ -60,17 +62,5 @@
                </div>
 
                </div>
-
-   
-
-    
-               <!-- <script src="app/lib/jquery.js"></script>
-          <script>
-          $('.click').click(function(){
-               $('#formlogin').fadeOut('fast');
-          $('.apaga').fadeOut('fast');
-          });
-          
-          </script> -->
 
 </main>

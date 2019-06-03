@@ -35,6 +35,8 @@
                     
                <input type="submit" value="Enviar" class=" BotaoLogin Campos " name="Cadastrar">
 
+               <div class="color"> <?php include_once 'mvc/controllers/cadastrar.php' ;?></div>
+
           </div>
 
           </form>
@@ -52,12 +54,4 @@
 
 </div>
 
-<script src="../../../app/lib/jquery.js"></script>     
-<script>
-$(document).ready(function(){
-
-     $('#formLogin').fadeOut()
-
-});
-</script>
 </main>

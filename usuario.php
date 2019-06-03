@@ -23,7 +23,9 @@ if ( isset ( $_GET [ 'v' ] ) )
 
      if ( file_exists ($caminho . $nomeView  ) )
      {
+          
           include_once  'mvc/views/principal/' . $nomeView ;
+          
      }
      else 
      {
@@ -36,5 +38,7 @@ else
 }
 
 ?>
+
+
 </body>
 </html>
