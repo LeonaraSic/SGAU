@@ -6,7 +6,6 @@ body{background-color: #f2f2f2}
 .menu
 {
     width: 100%; 
-    height: 70px; 
     background-color:#159588;
     display: flex;
     flex-direction: row;
@@ -42,6 +41,8 @@ body{background-color: #f2f2f2}
     align-items: center;
 }
 
+.menu .menuTop li{padding: 20px}
+
 .menu .menuTop a 
 {
     text-decoration: none;
@@ -49,7 +50,6 @@ body{background-color: #f2f2f2}
     color: #fafafa;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px
 }
 
 .menu .menuTop a:hover{color: #AEE4DF ; transition: 0.4s;  }
@@ -70,6 +70,7 @@ body{background-color: #f2f2f2}
     top: 0;
     z-index: 999;
     width: 100%;
+    cursor: pointer;
 }
 
 /* #### Formatação do link entrar no canto direito da tela ####  */
@@ -78,6 +79,27 @@ body{background-color: #f2f2f2}
 .entrarTexto{font-family: Arial, Helvetica, sans-serif; font-weight: 100; font-size: 17px; }
 
 .entrar:hover{color: #AEE4DF}
+
+.entrarFlex{width: 52%}
+
+/* #################### MENU RESPONSIVO ###################### */
+
+label[for="btnMenuResponsivo"]
+{
+     padding: 5px;
+     background-color: #159488;
+     color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 30px;
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+}
+
+#btnMenuResponsivo{display: none}
+
+label[for="btnMenuResponsivo"]{display: none}
 
 
 /* ############################## Slide de imagens da principal ########################## */
@@ -103,7 +125,7 @@ body{background-color: #f2f2f2}
      z-index: 2;
      position: absolute;
      text-align: center;
-     bottom: 250px;
+     bottom:  1px;
      left: 202px;
      width: 70%;
      padding: 10px;
@@ -152,7 +174,7 @@ body{background-color: #f2f2f2}
      display: flex; 
      flex-direction: row; 
      align-items: center; 
-     justify-content: space-between;
+     justify-content: center;
 }
 
 .conteudo
@@ -235,7 +257,7 @@ h1
 
 .corSuave p{ color: rgba(128, 223, 215, 0.945) }
 
-.flex{ display: flex ; flex-direction: row ; justify-content: center }
+.flexFooter{ display: flex ; flex-direction: row ; justify-content: center }
 
 .tam{color: #fafafa;font-size: 18px; }
 
@@ -263,7 +285,7 @@ h1
 {
      color: #fafafa;
      font-family: 'Roboto', sans-serif;
-     font-size: 17px;
+
      font-weight: 100;
    
 }
@@ -510,6 +532,7 @@ input [ type=password ]
 
 /* ################# Formatação dos links do Painel de controle ADM #################### */
 
+
 .menuControle
 {
      width: 100%;
@@ -551,7 +574,7 @@ input [ type=password ]
 
 .menuControle ul li:hover ul{
      visibility: visible;
-     z-index: 999;
+     z-index: 2;
 }
 
 .menuControle a:hover
@@ -570,6 +593,23 @@ input [ type=password ]
 {
      background-color: rgb(42, 133, 167);
 }
+
+label[for="btMenu"]
+{
+     padding: 5px;
+     background-color: #33363E;
+     color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 30px;
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+}
+
+#btMenu{display: none}
+
+label[for="btMenu"]{display: none}
 
 
 /* ############## FORMULARIOS DO ADM ############################## */

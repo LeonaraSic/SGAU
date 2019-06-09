@@ -81,19 +81,14 @@ $(document).ready(function()
      Ao rolar a página e atingir 100% de altura anima as chamadas. */
      $(window).scroll(function () 
      {
-          $('.chamada01').animate({scrollTop : 100 ,'margin-left' : '160px' , 'opacity': '1'}, 2000);
-          $('.chamada02').animate({scrollTop : 100 ,'margin-right' : '160px' , 'opacity': '1'}, 2000);
-          $('.chamada03').animate({scrollTop : 100 ,'margin-left' : '160px' , 'opacity': '1'}, 2000);
-          $('.chamada04').animate({scrollTop : 100 ,'margin-right' : '160px' , 'opacity': '1'}, 2000);
+          $('.chamada01').animate({ 'opacity': '1'}, 2000);
+          $('.chamada02').animate({'opacity': '1'}, 2000);
+          $('.chamada03').animate({ 'opacity': '1'}, 2000);
+          $('.chamada04').animate({'opacity': '1'}, 2000);
      });
 
 
-
-
-     /*  */
-
-
-     
+       
 });
 
 

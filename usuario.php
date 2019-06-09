@@ -8,6 +8,7 @@
 
      <link rel="stylesheet" href="app/lib/app/css/app.css">
      <link rel="stylesheet" href="app/lib/app/css/cadastrar.css">
+     <link rel="stylesheet" href="app/lib/app/css/media.css">
 
      <title>Cadastro/Login</title>
 </head>

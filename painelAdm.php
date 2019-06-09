@@ -10,6 +10,7 @@
      <title>Painel</title>
 
      <link rel="stylesheet" href="app/lib/app/css/app.css">
+     <link rel="stylesheet" href="app/lib/app/css/mediaAdm.css">
      
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -18,9 +19,13 @@
 
 <main class="homeJunto">
 
+     <input type="checkbox" id="btMenu">
+     <label for="btMenu">&#9776;</label>
+
+     
      <div id="painelDeControle">
 
-          <div class="menuDeControle">
+          <div class="menuDeControle" id="controll">
 
                <div class="containerSgau">
 

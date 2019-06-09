@@ -7,6 +7,7 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      
      <link rel="stylesheet" href="app/lib/app/css/app.css">
+     <link rel="stylesheet" href="app/lib/app/css/media.css">
      
      <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
      

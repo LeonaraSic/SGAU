@@ -1,6 +1,9 @@
 <div id="Index">
+        <input type="checkbox" id="btnMenuResponsivo">
+        <label for="btnMenuResponsivo">&#9776;</label>
+    
     <nav class="menu">
-        <div id="logo">
+        <div id="logo" >
             <ol>
                 <li>
                     <a href="index.php" title=" Sistema de Gerenciamento de Arborização Urbana">SGAU</a>
@@ -19,10 +22,10 @@
 
         <ul class="menuTop">
             <li>
-                <a href="usuario.php">
+                <a href="usuario.php" class="entrarFlex">
 
-                    <i class="fas fa-sign-in-alt entrar">
-                        <span class="entrarTexto"> &nbsp;Entrar</span>
+                    <i class="fas fa-sign-in-alt ">
+                    <span class="entrarTexto"> Entrar</span>
                     </i>
                     
                 </a>
@@ -31,3 +34,5 @@
 
     </nav>
 </div>
+
+

@@ -1,6 +1,6 @@
 <main class="formularioLogin">
 
-<form action="" method="POST" name="formLogin" id="formLogin" class="formLogin" >
+<form action="" method="POST" name="formLogin" id="formLogin" class="formCadastro" >
 <!--  ############### Links de Entrar e Cadastrar ######################### -->
 <div class="menuLogin">  
                <ul>

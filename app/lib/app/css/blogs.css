@@ -2,7 +2,7 @@
 
 #ConteudoFlex{width: 100%; height: 625px;  display: flex; flex-direction: row }
 
-#ImgHeader, #ImgHeader img { width: 80%; height: 625px; background-size: cover}
+#ImgHeader, #ImgHeader img { width: 100%; height: 625px; background-size: cover}
 
 #ImgLogo{display: flex; flex-direction: row; justify-content: center; }
 
@@ -29,7 +29,7 @@
 /* ############################## Menu lateral ( vertical ) do blog ############################ */
 #Menu_Blog
 { 
-    width: 20%;
+    width: 25%;
     height: 625px;
     background-color: #1CB7A5;
     display: block;
@@ -56,7 +56,39 @@
 #Menu_Blog li a:hover{ color: #a5efe7}
 
 
-/* ############################### Texto h1 ##################################### */
+/* ############################### Menu Responsivo ############################### */
+
+label[for="btBlogMenu"]
+{
+     padding: 5px;
+     background-color: #1CB6A4;
+     color: #fafafa;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 30px;
+     cursor: pointer;
+     width: 50px;
+     height: 625px;
+    
+}
+
+#btBlogMenu{display: none}
+
+label[for="btBlogMenu"]{display: none}
+
+.logoSGAU
+{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 25px;
+    color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: none
+}
+
+/* #################### Texto h1 das imagens de quando entra no blog ##################### */
 #TextoH1 
 {
     width:100%; 
@@ -81,7 +113,7 @@
 #TextoH1 h1{color: rgb(34, 185, 114); font-family: Arial, Helvetica, sans-serif; font-weight: 100 }
 
 /* ################################ Páginas do blog ############################### */
-.Conteudo{width: 80%; height: 625px; overflow-y: scroll;  }
+.Conteudo{width: 100%; height: 625px; overflow-y: scroll;  }
 
 .Textos{padding: 10px; color:  rgba(61, 60, 60, 0.986); font-family: Arial, Helvetica, sans-serif; }
 
@@ -121,9 +153,9 @@ hgroup{ text-align: center; margin-bottom: 25px; font-size: 18px }
 p{padding: 3px;text-indent: 50px; margin-bottom: 10px; font-size: 18px; text-align: justify}
 
 /* ############### Imagens que estão em baixo de algum conteúdo das páginas ################# */
-.ImagensProjetos, .ImagensSemam{display: flex; flex-direction: row; justify-content: space-around}
+.ImagensProjetos, .ImagensSemam{width: 100%; height: 300px;display: flex; flex-direction: row; justify-content: space-around; align-items: center}
 
-.ImagensProjetos img, .ImagensSemam img{width: 35%; height: 300px; border-radius: 20px}
+.ImagensProjetos img, .ImagensSemam img{width: 35%; height: 250px; border-radius: 20px; display: flex; flex-direction: row; justify-content: space-around; align-items: center}
 
 .ImagensProjetos img:hover{transform: scaleX(-1);}
 

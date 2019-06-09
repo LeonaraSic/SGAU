@@ -1,6 +1,7 @@
 <div id="ConteudoFlex">
-     <div class=" Conteudo ">
+     <div class=" Conteudo overflow ">
           
+          <div class='cor'>
           <div class=" ArborizaImagem2 ">
 
                <div class=" Textos ">
@@ -27,6 +28,7 @@
                </div>
           
           </div>
+          </div>
           
      </div>
      
@@ -35,6 +37,5 @@
 <script src="app/lib/jquery.js"></script>
   <script>
      $("#ImgHeader").fadeOut("fast");
-     $("#Menu_Blog").css("width", "25%");
-     $(".Conteudo").css("width", "100%");
+
 </script>

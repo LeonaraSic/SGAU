@@ -54,7 +54,7 @@
                     Nossas redes sociais:
                </p>
 
-               <div class="corSuave flex links">
+               <div class="corSuave flexFooter links">
                     <p>
                          <a href=""><i class="fab fa-facebook-f tam"></i>&nbsp;&nbsp;&nbsp;</a>
                     </p>            
